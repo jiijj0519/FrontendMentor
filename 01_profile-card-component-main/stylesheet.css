@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+html, body {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    padding:0px;
+    margin:0px;
+}
+
+
+
+.pattern-top{
+    position: absolute;
+    top: -70%;
+    left: -20%;
+    width: 70%;
+    height: 70%;
+}
+.pattern-top img{
+    width: 100%;
+}
+
+.pattern-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+/*
+.pattern-top{
+    position: absolute;
+    top: -100%;
+    left: -50%;
+    width: 100%;
+}
+
+.pattern-bottom{
+    position: relative;
+    bottom: 0;
+    right: -50%;
+    width: 100%;
+}
+
+.patterm-bottom img{
+    position: absolute;
+    bottom: -500px;
+}
+
+.pattern-top img, .pattern-bottom img{
+    display: block;
+    width: 100%;
+}
+*/
+
+.profile-box{
+    width: 450px;
+    height: 480px;
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 0px 10px 50px 0 hsl(227, 10%, 46%);
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.card-top{
+    position: relative;
+    z-index: -1;
+    height: 40%;
+    width: 100%;
+    background: url(images/bg-pattern-card.svg);
+    object-fit: contain;
+}
+
+.photo{
+    display: block;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+	right: 0;
+	top: 26%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.victor{
+    width: 110px;
+    position: absolute;
+    display: block;
+    left: 0;
+	right: 0;
+	top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.card-bottom{
+    text-align: center;
+}
+
+.name-box{
+    display: inline-block;
+
+}
+.name-box span{
+    font-weight: 400;
+    padding: 0 12px;
+    color: hsl(227, 10%, 46%);
+}
+
+.card-bottom .location{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size: 16px;
+}
+
+.text-top{
+    margin: 50px 0 30px 0;
+}
+
+.location{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.data-row{
+    margin: auto;
+    width: 100%;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    text-align: center;
+}
+
+.data-col{
+    height: 100%;
+    display: inline-block;
+    width: 28%;
+    line-height: 8px;
+    position: relative;
+    transform: translateY(40%);
+}
+
+.number-info{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+.attribution { 
+    font-size: 11px; 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
